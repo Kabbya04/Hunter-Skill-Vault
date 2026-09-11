@@ -1,0 +1,32 @@
+{
+  "name": "hunt3r-skill-vault",
+  "version": "0.1.0",
+  "description": "Portable, individually installable skills for coding agents and assistants.",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "hunt3r-skills": "./bin/hunt3r-skills.js",
+    "hunt3r-skill-vault": "./bin/hunt3r-skills.js"
+  },
+  "files": [
+    "bin",
+    "scripts",
+    "hunter-*/**",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "validate": "node scripts/validate.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "agent-skills",
+    "ai-agent",
+    "cursor",
+    "claude",
+    "codex",
+    "design"
+  ]
+}
